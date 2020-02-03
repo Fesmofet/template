@@ -1,6 +1,5 @@
 import React, { Component} from "react";
 import {hot} from "react-hot-loader";
-import "../styles/index.less";
 
 class Layout extends Component {
   

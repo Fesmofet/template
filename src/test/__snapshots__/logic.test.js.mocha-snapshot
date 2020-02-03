@@ -1,0 +1,304 @@
+exports["<Layout />/should match snapshot(0)"] = {
+  "node": {
+    "nodeType": "host",
+    "type": "div",
+    "props": {
+      "className": "wrapper",
+      "children": [
+        {
+          "type": "header",
+          "props": {
+            "className": "header"
+          },
+          "_store": {}
+        },
+        {
+          "type": "main",
+          "props": {
+            "className": "content-wrapper",
+            "children": [
+              {
+                "type": "div",
+                "props": {
+                  "className": "sidebar"
+                },
+                "_store": {}
+              },
+              {
+                "type": "div",
+                "props": {
+                  "className": "content",
+                  "children": {
+                    "type": "button",
+                    "props": {
+                      "onClick": "[function]",
+                      "children": "true"
+                    },
+                    "_store": {}
+                  }
+                },
+                "_store": {}
+              }
+            ]
+          },
+          "_store": {}
+        },
+        {
+          "type": "footer",
+          "props": {
+            "className": "footer"
+          },
+          "_store": {}
+        }
+      ]
+    },
+    "rendered": [
+      {
+        "nodeType": "host",
+        "type": "header",
+        "props": {
+          "className": "header"
+        }
+      },
+      {
+        "nodeType": "host",
+        "type": "main",
+        "props": {
+          "className": "content-wrapper",
+          "children": [
+            {
+              "type": "div",
+              "props": {
+                "className": "sidebar"
+              },
+              "_store": {}
+            },
+            {
+              "type": "div",
+              "props": {
+                "className": "content",
+                "children": {
+                  "type": "button",
+                  "props": {
+                    "onClick": "[function]",
+                    "children": "true"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            }
+          ]
+        },
+        "rendered": [
+          {
+            "nodeType": "host",
+            "type": "div",
+            "props": {
+              "className": "sidebar"
+            }
+          },
+          {
+            "nodeType": "host",
+            "type": "div",
+            "props": {
+              "className": "content",
+              "children": {
+                "type": "button",
+                "props": {
+                  "onClick": "[function]",
+                  "children": "true"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "button",
+              "props": {
+                "onClick": "[function]",
+                "children": "true"
+              },
+              "rendered": "true"
+            }
+          }
+        ]
+      },
+      {
+        "nodeType": "host",
+        "type": "footer",
+        "props": {
+          "className": "footer"
+        }
+      }
+    ]
+  },
+  "type": "div",
+  "props": {
+    "className": "wrapper"
+  },
+  "children": [
+    {
+      "node": {
+        "nodeType": "host",
+        "type": "header",
+        "props": {
+          "className": "header"
+        }
+      },
+      "type": "header",
+      "props": {
+        "className": "header"
+      }
+    },
+    {
+      "node": {
+        "nodeType": "host",
+        "type": "main",
+        "props": {
+          "className": "content-wrapper",
+          "children": [
+            {
+              "type": "div",
+              "props": {
+                "className": "sidebar"
+              },
+              "_store": {}
+            },
+            {
+              "type": "div",
+              "props": {
+                "className": "content",
+                "children": {
+                  "type": "button",
+                  "props": {
+                    "onClick": "[function]",
+                    "children": "true"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            }
+          ]
+        },
+        "rendered": [
+          {
+            "nodeType": "host",
+            "type": "div",
+            "props": {
+              "className": "sidebar"
+            }
+          },
+          {
+            "nodeType": "host",
+            "type": "div",
+            "props": {
+              "className": "content",
+              "children": {
+                "type": "button",
+                "props": {
+                  "onClick": "[function]",
+                  "children": "true"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "button",
+              "props": {
+                "onClick": "[function]",
+                "children": "true"
+              },
+              "rendered": "true"
+            }
+          }
+        ]
+      },
+      "type": "main",
+      "props": {
+        "className": "content-wrapper"
+      },
+      "children": [
+        {
+          "node": {
+            "nodeType": "host",
+            "type": "div",
+            "props": {
+              "className": "sidebar"
+            }
+          },
+          "type": "div",
+          "props": {
+            "className": "sidebar"
+          }
+        },
+        {
+          "node": {
+            "nodeType": "host",
+            "type": "div",
+            "props": {
+              "className": "content",
+              "children": {
+                "type": "button",
+                "props": {
+                  "onClick": "[function]",
+                  "children": "true"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "button",
+              "props": {
+                "onClick": "[function]",
+                "children": "true"
+              },
+              "rendered": "true"
+            }
+          },
+          "type": "div",
+          "props": {
+            "className": "content"
+          },
+          "children": [
+            {
+              "node": {
+                "nodeType": "host",
+                "type": "button",
+                "props": {
+                  "onClick": "[function]",
+                  "children": "true"
+                },
+                "rendered": "true"
+              },
+              "type": "button",
+              "props": {
+                "onClick": "[function]"
+              },
+              "children": [
+                "true"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": {
+        "nodeType": "host",
+        "type": "footer",
+        "props": {
+          "className": "footer"
+        }
+      },
+      "type": "footer",
+      "props": {
+        "className": "footer"
+      }
+    }
+  ]
+};
+
